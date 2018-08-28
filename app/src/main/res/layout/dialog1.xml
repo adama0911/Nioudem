@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:minHeight="495dp"
+    android:layout_height="495dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialogcustom"
+    android:padding="5dp"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:paddingTop="150dp"
+        android:inputType="textMultiLine"
+        android:text="Quel est votre destination ??"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/validerDestiation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/validatebuttonstyle"
+            android:text="Valider"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

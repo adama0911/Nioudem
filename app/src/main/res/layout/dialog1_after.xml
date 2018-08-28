@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:minHeight="495dp"
+    android:layout_height="495dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialogcustom"
+    android:padding="5dp"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:hint="Nom"
+            android:id="@+id/nomEdit"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="Prenom"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:hint="Prenom"
+            android:id="@+id/prenomEdit"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="depart"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:hint="Depart"
+            android:id="@+id/departEdit"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="Jour"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:hint="Jour"
+            android:id="@+id/jourEdit"
+            android:inputType="date"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="Heure"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:hint="Heure"
+            android:id="@+id/heureEdit"
+            android:inputType="time"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="Destination"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:hint="Destination"
+            android:id="@+id/destinationEdit"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/validatebuttonstyle"
+            android:text="annuler"
+            android:id="@+id/annulerButton"
+            android:textColor="@color/white"
+           />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/validatebuttonstyle"
+            android:text="valider"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/validerButton"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
